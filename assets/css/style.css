@@ -438,25 +438,32 @@ span.material-symbols-outlined {
 
 .button1 {
   color: blue;
+  background-color: rgb(255, 255, 255, 0.5);
+  position: fixed;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 10px;
 }
 .button2 {
   color: blue;
+  background-color: rgb(255, 255, 255, 0.5);
+  position: fixed;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 10px;
 }
 .button3 {
   color: orange;
+  background-color: rgb(255, 255, 255, 0.5);
+  position: fixed;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 699px) {
   footer {
     position: relative;
   }
-
   footer button {
-    background-color: rgb(255, 255, 255, 0.5);
     right: 20px;
-    position: fixed;
-    border: 1px solid rgb(194, 192, 192);
-    border-radius: 10px;
     margin-bottom: 20px;
   }
   .button1 {
@@ -475,14 +482,9 @@ span.material-symbols-outlined {
     position: relative;
   }
   footer button {
-    background-color: rgb(255, 255, 255, 0.5);
     right: 20px;
-    position: fixed;
-    border: 1px solid rgb(194, 192, 192);
-    border-radius: 10px;
     margin-bottom: 20px;
   }
-
   .button1 {
     top: 80px;
     z-index: 2;
